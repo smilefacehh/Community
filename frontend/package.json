@@ -1,0 +1,14 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "```\r 1.列表动态删除input条目，发现数据渲染不更新\r <input value=\"{{item.weight}}\">需要加上value属性\r 2.索引动态列表中的某一条目\r data-id=\"{{index}}\"\r let index = e.currentTarget.dataset.id;\r ```",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vant/weapp": "^1.9.1"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/teach/teach",
+    "pages/history/history",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2a8",
+    "navigationBarTitleText": "运动",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "训练",
+        "iconPath": "images/icon-train-org.png",
+        "selectedIconPath": "images/icon-train-fill.png"
+      },
+      {
+        "pagePath": "pages/teach/teach",
+        "text": "指导",
+        "iconPath": "images/icon-teach-org.png",
+        "selectedIconPath": "images/icon-teach-fill.png"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "数据",
+        "iconPath": "images/icon-data-org.png",
+        "selectedIconPath": "images/icon-data-fill.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/icon-me-org.png",
+        "selectedIconPath": "images/icon-me-fill.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

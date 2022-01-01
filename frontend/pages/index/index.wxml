@@ -1,0 +1,35 @@
+<!--pages/index/index.wxml-->
+<view class="page">
+  <view class="top">
+    <label class="train-label">运动</label>
+    <image class="scan" src="/images/icon-scan.png" style="width: 60rpx; height: 60rpx;"></image>
+  </view>
+  <view class="center">
+    <view class="body-view" wx:for="{{actionList}}">
+      <label class="body-name-label">{{item.name}}</label>
+      <view class="action-list-view" wx:for="{{item.actions}}">
+        <view class="action-title-view">
+          <image class="action-icon" src="{{item.img}}"></image>
+          <view class="action-label-view">
+            <label class="action-label">{{item.name}}</label>
+          </view>
+        </view>
+        <view class="action-counts-view" wx:for="{{item.records}}" wx:key="{{index}}">
+            <label class="action-counts-id">{{index}}</label>
+            <van-picker custom-class="van-picker-weight" columns="{{countPickerNums}}" default-index="{{5}}" visible-item-count="1"></van-picker>
+            <label class="action-weight-label">{{item.unit}}</label>
+            <van-picker custom-class="van-picker-count" columns="{{countPickerNums}}" default-index="{{10}}" visible-item-count="1"></van-picker>
+            <label class="action-count-label">次</label>
+            <van-picker custom-class="van-picker-unit" columns="{{weightUnitList}}" default-index="{{0}}" visible-item-count="1"></van-picker>
+            <van-icon name="clear"></van-icon>
+          </view>
+      </view>
+    </view>
+    <view class="eat-view">
+    </view>
+  </view>
+  <view class="bottom">
+    <label class="add-tips-label">添加一个动作</label>
+    <van-icon name="add" bind:click="onClickAddAction" color="silver" size="120rpx"></van-icon>
+  </view>
+</view>

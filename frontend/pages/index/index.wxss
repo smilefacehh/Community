@@ -1,0 +1,32 @@
+/* pages/index/index.wxss */
+.bottom-add-view{
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.action-title-view{
+  display: flex;
+  flex-flow: row;
+}
+
+.action-counts-view{
+  display: flex;
+  flex-flow: row;
+}
+
+.action-icon{
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.van-picker-weight {
+  width: 100rpx;
+}
+.van-picker-count {
+  width: 100rpx;
+}
+
+.van-picker-unit {
+  width: 100rpx;
+}

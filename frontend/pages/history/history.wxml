@@ -1,0 +1,11 @@
+<!--pages/history/history.wxml-->
+<view wx:for="{{bodyList}}">
+  <label>{{item.name}}</label>
+  <view wx:for="{{item.instList}}">
+    <label>{{item.name}}</label>
+    <view wx:for="{{item.actionList}}">
+      <image src="{{item.img}}" style="width: 60rpx; height: 60rpx;"></image>
+      <label>{{item.name}}</label>
+    </view>
+  </view>
+</view>

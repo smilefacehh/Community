@@ -1,0 +1,13 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "van-tab": "/miniprogram_npm/@vant/weapp/tab/index",
+    "van-tabs": "/miniprogram_npm/@vant/weapp/tabs/index",
+    "van-nav-bar": "/miniprogram_npm/@vant/weapp/nav-bar/index",
+    "van-tree-select": "/miniprogram_npm/@vant/weapp/tree-select/index",
+    "van-icon": "/miniprogram_npm/@vant/weapp/icon/index",
+    "van-grid": "/miniprogram_npm/@vant/weapp/grid/index",
+    "van-grid-item": "/miniprogram_npm/@vant/weapp/grid-item/index",
+    "van-search": "/miniprogram_npm/@vant/weapp/search/index"
+  }
+}
